@@ -61,5 +61,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - abergeron
     - jakirkham
     - ocefpaf
