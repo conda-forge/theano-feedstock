@@ -1,4 +1,4 @@
-{% set version = "0.8.2" %}
+{% set version = "0.9.0rc4" %}
 
 package:
   name: theano
@@ -7,7 +7,7 @@ package:
 source:
   fn: Theano-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/T/Theano/Theano-{{ version }}.tar.gz
-  md5: f2d0dfe7df141115201077cd933b2c52
+  md5: 8c465524ae8bed5c1bb6074819255c73
 
 build:
   number: 0
