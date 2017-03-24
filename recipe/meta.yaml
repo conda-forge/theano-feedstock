@@ -7,7 +7,7 @@ package:
 source:
   fn: Theano-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/T/Theano/Theano-{{ version }}.tar.gz
-  md5: 2df1b85fe634b7d9241721b2966e6ae2
+  sha256: 745d66716531f9063127274b40503fbc21f931f78b7b03e79e5523d50078bc17
 
 build:
   number: 0
@@ -63,3 +63,4 @@ extra:
   recipe-maintainers:
     - jakirkham
     - ocefpaf
+    - ericmjl
