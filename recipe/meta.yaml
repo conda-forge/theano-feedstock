@@ -20,6 +20,7 @@ requirements:
 
   run:
     - python
+    - setuptools
     - six >=1.9.0
     - numpy >=1.9.1
     - scipy >=0.14
