@@ -40,8 +40,6 @@ test:
     - theano.gof.tests
     - theano.misc
     - theano.sandbox
-    - theano.sandbox.cuda
-    - theano.sandbox.cuda.tests
     - theano.scalar
     - theano.scalar.tests
     - theano.sparse
