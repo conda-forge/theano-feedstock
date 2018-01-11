@@ -38,6 +38,9 @@ test:
     - theano.compile.tests
     - theano.gof
     - theano.gof.tests
+    - theano.gpuarray
+    - theano.gpuarray.dnn
+    - theano.gpuarray.linalg
     - theano.misc
     - theano.sandbox
     - theano.scalar
