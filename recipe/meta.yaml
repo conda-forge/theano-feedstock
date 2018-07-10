@@ -1,5 +1,5 @@
 {% set version = "1.0.2" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 package:
   name: theano
@@ -11,11 +11,13 @@ source:
   sha256: 6768e003d328a17011e6fca9126fbb8a6ffd3bb13cb21c450f3e724cca29abde
 
 build:
+  noarch: python
   number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
 

@@ -14,9 +14,8 @@ Summary: Optimizing compiler for evaluating mathematical expressions on CPUs and
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/theano-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/theano-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/theano-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/theano-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/theano-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/theano-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/theano-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/theano-feedstock)
 
 Current release info
 ====================
