@@ -16,10 +16,14 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
     - python
     - setuptools
-
   run:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
     - python
     - setuptools
     - six >=1.9.0
