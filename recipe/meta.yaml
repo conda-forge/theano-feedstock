@@ -24,6 +24,7 @@ requirements:
   run:
     - {{ compiler('c') }}    # [not win]
     - {{ compiler('cxx') }}  # [not win]
+    - m2w64-toolchain        # [win]
     - python
     - setuptools
     - six >=1.9.0
