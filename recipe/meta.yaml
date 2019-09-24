@@ -22,8 +22,9 @@ requirements:
     - python
     - setuptools
   run:
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
+    - {{ compiler('c') }}    # [not win]
+    - {{ compiler('cxx') }}  # [not win]
+    - m2w64-toolchain        # [win]
     - python
     - setuptools
     - six >=1.9.0
