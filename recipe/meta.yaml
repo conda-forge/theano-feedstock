@@ -15,11 +15,6 @@ build:
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
-    - {{ compiler('c') }}    # [not win]
-    - {{ compiler('cxx') }}  # [not win]
-    - {{ compiler('m2w64_c') }}    # [win]
-    - {{ compiler('m2w64_cxx') }}  # [win]
   host:
     - python
     - setuptools
