@@ -11,7 +11,7 @@ source:
     - 0001-Counteract-hypot-redefinition-for-old-Python-versions.patch
 
 build:
-  number: 1001
+  number: 1002
   script: "{{ PYTHON }} -m pip install --no-deps --ignore-installed ."
 
 requirements:
