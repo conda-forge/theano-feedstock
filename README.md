@@ -5,7 +5,7 @@ Home: http://deeplearning.net/software/theano/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs.
 
