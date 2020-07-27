@@ -8,7 +8,6 @@ source:
   url: https://pypi.io/packages/source/T/Theano/Theano-{{ version }}.tar.gz
   sha256: 6e9439dd53ba995fcae27bf20626074bfc2fff446899dc5c53cb28c1f9202e89
   patches:
-    - 0001-Counteract-hypot-redefinition-for-old-Python-versions.patch
 
 build:
   number: 0
